@@ -1,0 +1,14 @@
+<!-- Sample config file that allows to run XOGame as Ubiq application -->
+<?xml version="1.0" encoding="windows-1251" ?>
+<UbiqServerConfig>
+  <ServiceDirectoryVersion>04022013</ServiceDirectoryVersion>
+  <ClientPortNumber>4243</ClientPortNumber>
+  <AppDeploymentDirectory>./</AppDeploymentDirectory>
+  <Application>
+      <Name>XOGame</Name>
+      <Description>Крестики-нолики</Description>
+      <SrvUrl>127.0.0.1</SrvUrl>
+      <ChannelN>1</ChannelN>
+      <DllName>XOGame.dll</DllName>
+  </Application>
+</UbiqServerConfig>
