@@ -33,7 +33,7 @@
                         break;
                 }
                 control.Text = str;
-                //owner.ReDrawGraphics();
+                state = value;
             }
         }
 
